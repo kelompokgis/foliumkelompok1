@@ -123,6 +123,68 @@ folium.Marker(
   location =[-7.960729,112.6321123],
   popup='Sarangan',
   icon = folium.Icon (icon='info-sign')
-).add_to(m)         
+).add_to(m) 
+         
+   folium.Marker(
+  location =[-7.9610441,112.6140984],
+  popup='Universitas Brawijaya',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)  
+         
+   folium.Marker(
+  location =[-7.9541588,112.6193341],
+  popup='Bakso President',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)   
+   
+   folium.Marker(
+  location =[-7.943873,112.6096352],
+  popup='Universitas Islam Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)   
+   
+    folium.Marker(
+  location =[-7.9472733,112.5986489],
+  popup='Universitas Ma Chung',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+    folium.Marker(
+  location =[-7.9322269,112.6004513],
+  popup='Universitas Gajayana',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)      
+    
+    folium.Marker(
+  location =[-7.9689555,112.6034065],
+  popup='Taman Slamet',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+    
+    folium.Marker(
+  location =[-7.9657229,112.6140664],
+  popup='Universitas Negeri Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+   
+     folium.Marker(
+  location =[-7.9659762,112.6146104],
+  popup='PMB',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+     
+      folium.Marker(
+  location =[-7.9707789,112.6304032],
+  popup='Bakso Cak Man',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+      
+      folium.Marker(
+  location =[-7.9735381,112.6323317],
+  popup='Ronde Tinoni',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)  
+     
+    
         
 m.save('index.html')
