@@ -185,6 +185,63 @@ folium.Marker(
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)  
      
-    
-        
+      folium.Marker
+  location =[-7.9735381,112.6323317],
+  popup='Lawu',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+  
+  folium.Marker
+  location =[-7.9698577,112.6222953],
+  popup='Buring',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+  
+  folium.Marker
+  location =[-7.9683387,112.6205143],
+  popup='Pahlawan Trip 2',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+    folium.Marker
+  location =[-7.9662877,112.6176603],
+  popup='Simpang Ijen',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)      
+         
+    folium.Marker
+  location =[-7.9682747,112.6185833],
+  popup='Kurinci',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)     
+         
+    folium.Marker
+  location =[-7.9695497,112.6162013],
+  popup='Retawu',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)          
+   
+   folium.Marker
+  location =[-7.9723867,112.6154393],
+  popup='Wilis',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+   folium.Marker
+  location =[-7.9739807,112.6140123],
+  popup='Terusan Kawi',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)      
+         
+    folium.Marker
+  location =[-7.9742467,112.6113513],
+  popup='Mundu',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)     
+         
+    folium.Marker
+  location =[-7.9734077,112.6114483],
+  popup='Dieng',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)      
 m.save('index.html')
