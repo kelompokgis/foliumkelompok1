@@ -185,63 +185,64 @@ folium.Marker(
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)  
      
-      folium.Marker
-  location =[-7.9735381,112.6323317],
+    folium.Marker(
+  location =[-7.972009,112.6264317],
+  popup='PMI Kota Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+    folium.Marker(
+  location =[-7.970309,112.6248757],
+  popup='Cerme',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+    folium.Marker(
+  location =[-7.971621,112.6229067],
+  popup='Argopuro',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+     
+  folium.Marker(
+  location =[-7.971839,112.6218017],
   popup='Lawu',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m) 
-  
-  folium.Marker
-  location =[-7.9698577,112.6222953],
-  popup='Buring',
+    
+  folium.Marker(
+  location =[-7.972317,112.6212657],
+  popup='Perpustakaan Kota Malang',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m) 
-  
-  folium.Marker
-  location =[-7.9683387,112.6205143],
-  popup='Pahlawan Trip 2',
-  icon = folium.Icon (icon='info-sign')
-).add_to(m) 
-         
-    folium.Marker
-  location =[-7.9662877,112.6176603],
-  popup='Simpang Ijen',
-  icon = folium.Icon (icon='info-sign')
-).add_to(m)      
-         
-    folium.Marker
-  location =[-7.9682747,112.6185833],
-  popup='Kurinci',
-  icon = folium.Icon (icon='info-sign')
-).add_to(m)     
-         
-    folium.Marker
-  location =[-7.9695497,112.6162013],
-  popup='Retawu',
-  icon = folium.Icon (icon='info-sign')
-).add_to(m)          
-   
-   folium.Marker
-  location =[-7.9723867,112.6154393],
-  popup='Wilis',
+        
+    folium.Marker(
+  location =[-7.972859,112.6202037],
+  popup='Ijen',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m) 
          
-   folium.Marker
-  location =[-7.9739807,112.6140123],
-  popup='Terusan Kawi',
-  icon = folium.Icon (icon='info-sign')
-).add_to(m)      
          
-    folium.Marker
-  location =[-7.9742467,112.6113513],
-  popup='Mundu',
+    folium.Marker(
+  location =[-7.973406,112.6194257],
+  popup='Bebek Pak Janggut Malang',
   icon = folium.Icon (icon='info-sign')
-).add_to(m)     
+).add_to(m) 
          
-    folium.Marker
-  location =[-7.9734077,112.6114483],
-  popup='Dieng',
+     folium.Marker(
+  location =[-7.974654,112.6204077],
+  popup='Sindoro',
   icon = folium.Icon (icon='info-sign')
-).add_to(m)      
+).add_to(m) 
+         
+      folium.Marker(
+  location =[-7.975456,112.6249727],
+  popup='Monumen T.G.P. Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)   
+         
+       folium.Marker(
+  location =[-7.974468,112.6260567],
+  popup='HKBP Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
 m.save('index.html')
