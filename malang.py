@@ -248,7 +248,7 @@ folium.Marker(
 
        folium.Marker(
   location =[-7.9608582,112.6321635],
-  popup='PT.Antar TEnaga Mandiri',
+  popup='PT.Antar Tenaga Mandiri',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
 
@@ -395,5 +395,77 @@ folium.Marker(
   popup='Balai Kota Malang',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
+          
+     folium.Marker(
+  location =[-7.979314,112.6302588],
+  popup='Badan Lingkungan Hidup Kota Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+    
+    folium.Marker(
+  location =[-7.97874,112.6291318],
+  popup='Taman Tembakau',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+    
+     folium.Marker(
+  location =[-7.978674,112.6302878],
+  popup='Pasar Kunam',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m
          
+  folium.Marker(
+  location =[-7.977051,112.6309688],
+  popup='Pasar Bunga Splendit',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+  folium.Marker(
+  location =[-7.977407,112.6306788],
+  popup='Toko Taman Hias',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+  folium.Marker(
+  location =[-7.977319,112.6324568],
+  popup='Hotel Tugu',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+    folium.Marker(
+  location =[-7.977245,112.6310378],
+  popup='Tunas Paralayang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)   
+         
+      folium.Marker(
+  location =[-7.976552,112.6309408],
+  popup='Masjid A.Yani',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)  
+         
+         folium.Marker(
+  location =[-7.976379,112.6308338],
+  popup='Masjid Ahmad Yani Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+         folium.Marker(
+  location =[-7.975214,112.6251637],
+  popup='GRI Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+          folium.Marker(
+  location =[-7.975602,112.6240367],
+  popup='Stadion Gajayana',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+         folium.Marker(
+  location =[-7.975995,112.6245087],
+  popup='Kantor Koni Kota Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+   
 m.save('index.html')
