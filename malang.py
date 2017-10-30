@@ -468,4 +468,63 @@ folium.Marker(
   icon = folium.Icon (icon='info-sign')
 ).add_to(m) 
    
+    folium.Marker(
+  location =[-7.9388107,112.5865153],
+  popup='Jl. Joyo Agung',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+   
+    folium.Marker(
+  location =[-7.9387788,112.5853781],
+  popup='Pesona Soccer Zone Futsal',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+   
+   folium.Marker(
+  location =[-7.9376604,112.5864509],
+  popup='Panti Asuhan Al Husnah',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+   
+   folium.Marker(
+  location =[-7.9387504,112.5760893],
+  popup='Jl. Tirto Joyo',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+   
+   folium.Marker(
+  location =[-7.9397573,112.5781497],
+  popup='Jl. Villa Bukti Tidar',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+   
+    folium.Marker(
+  location =[-7.942637,112.5771626],
+  popup='SMK Negeri 13 Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+   
+   folium.Marker(
+  location =[-7.9428123,112.5779995],
+  popup='Warung Nirwana',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+   
+   folium.Marker(
+  location =[-7.9429823,112.5809821],
+  popup='Mesjid Nurul Jihad',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+   
+   folium.Marker(
+  location =[-7.9429823,112.5809821],
+  popup='Bebek Laos VBT',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+   
+   folium.Marker(
+  location =[-7.9429823,112.5809821],
+  popup='Laras Food',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
 m.save('index.html')
