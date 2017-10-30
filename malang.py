@@ -9,7 +9,7 @@ folium.Marker(
   location =[-7.976854,112.6307393],
   popup='Kahuripan',
   icon = folium.Icon (icon='info-sign')
-).add_to(m
+).add_to(m)
          
 folium.Marker(
   location =[-7.977109, 112.631426],
