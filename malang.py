@@ -245,4 +245,94 @@ folium.Marker(
   popup='HKBP Malang',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
+
+       folium.Marker(
+  location =[-7.9608582,112.6321635],
+  popup='PT.Antar TEnaga Mandiri',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+
+        folium.Marker(
+  location =[-7.959623,112.6284755],
+  popup='Mie Galau',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+
+         folium.Marker(
+  location =[-7.959623,112.6240981],
+  popup='SALLY Girl Stuff',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9457243,112.6100028],
+  popup='Mie Jogging',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9457243,112.6100028],
+  popup='Sardo Swalayan',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9457243,112.6100028],
+  popup='Museum Reenactor Ngalam',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9474379,112.6404001],
+  popup='PT Karya Niaga',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9321235,112.6508106],
+  popup='Hawai Water Park',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9321235,112.6508106],
+  popup='Taman Kendedes',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9282874,112.6449312],
+  popup='Polowijen Garden',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9213015,112.6424075],
+  popup='Chrysant Premiere Apartment',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+ 
+         folium.Marker(
+  location =[-7.9234234,112.6369867],
+  popup='Perumahan Citra Laras Cakalang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9266574,112.6314266],
+  popup='GOR TOMBRO',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9277504,112.6248272],
+  popup='Ducas Casio',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9301923,112.616267],
+  popup='Hutan Kota Tunggul wulung',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
 m.save('index.html')
