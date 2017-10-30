@@ -335,4 +335,65 @@ folium.Marker(
   popup='Hutan Kota Tunggul wulung',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
+         
+       folium.Marker(
+  location =[-7.9825122,112.6290866],
+  popup='Alun Alun Merdeka Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+        folium.Marker(
+  location =[-7.9818121,112.630243],
+  popup='UPT Taman Rekreasi Kota',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+        folium.Marker(
+  location =[-7.9784462,112.6317603],
+  popup='SMAN 1 Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+        folium.Marker(
+  location =[-7.9733073,112.6335962],
+  popup='Dodik Bela Negara',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9853281,112.629363],
+  popup='Kantor Pos Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+          folium.Marker(
+  location =[-7.9878524,112.6276029],
+  popup='Museum Musik Indonesia',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9932466,112.6303947],
+  popup='Dinas Kebersihan & Pertamanan',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9983101,112.626207],
+  popup='Bengkel Sablon Kaos Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9937725,112.633839],
+  popup='The Balava Hotel',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.978281,112.6328982],
+  popup='Balai Kota Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
 m.save('index.html')
