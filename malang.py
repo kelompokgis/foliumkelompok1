@@ -647,5 +647,78 @@ folium.Marker(
   popup='Sepatu Gunung Murah',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
+         
+        folium.Marker(
+  location =[-8.0102954,112.6305997],
+  popup='Gadang Ice Cream',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0169149,112.6272974],
+  popup='warung agrin',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
        
+         folium.Marker(
+  location =[-8.0129908,112.6195507],
+  popup='Ayam Goreng Nelongso Sukun',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.01453,112.6114856],
+  popup='SDN Sitirejo 02',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0089811,112.6179017],
+  popup='Universitas Kanjuruhan Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0025521,112.626465],
+  popup='toko "Lestari jaya"',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9954668,112.6406133],
+  popup='MUHARTO OPTIK',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9901813,112.6180826],
+  popup='Rumah Sakit Tentara Doktor Soepraoen',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9885753,112.6040128],
+  popup='Perumahan Bandulan Baru',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9717275,112.6174099],
+  popup='Healty Cafe Madam Wang Secret Garden',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9815586,112.599322],
+  popup='BRAMASTA BURGER',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9922579,112.5932392],
+  popup='KOLAM PEMANCINGAN',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         
 m.save('index.html')
