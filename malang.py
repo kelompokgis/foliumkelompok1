@@ -587,4 +587,65 @@ folium.Marker(
   popup='Golden Pet Shop',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
+         
+   folium.Marker(
+  location =[-7.9424973,112.5928626],
+  popup='Warung Mak Par',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+   
+   folium.Marker(
+  location =[-7.9423299,112.5928831],
+  popup='Soraya TROPHY',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+   
+   folium.Marker(
+  location =[-7.941079,112.5918907],
+  popup='Pesantren Al-Umm',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+    folium.Marker(
+  location =[-7.9322663,112.5978983],
+  popup='Tazkia IIBS',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+    
+    folium.Marker(
+  location =[-7.921151,112.617043],
+  popup='Toko Pertigaan Jaya',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+    
+    folium.Marker(
+  location =[-7.921151,112.617043],
+  popup='Tasikmadu Regency',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)     
+     
+      folium.Marker(
+  location =[-7.9186239,112.6223433],
+  popup='Dinoza Ice Cream',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)  
+         
+    folium.Marker(
+  location =[-7.9218098,112.6307263],
+  popup='ASIA SOURVENIR',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+     
+         folium.Marker(
+  location =[-7.9301805,112.6422069],
+  popup='Bengkel Sumpil 2',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+     
+       folium.Marker(
+  location =[-7.9324716,112.6442468],
+  popup='Sepatu Gunung Murah',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+       
 m.save('index.html')
