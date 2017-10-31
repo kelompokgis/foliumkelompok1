@@ -720,5 +720,63 @@ folium.Marker(
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
          
+   folium.Marker(
+  location =[-7.9517582,112.6617968],
+  popup='Wisata Wendit',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
          
+     folium.Marker(
+  location =[-7.985311,112.6269879],
+  popup='Bakso President',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)    
+    
+     folium.Marker(
+  location =[-8.0045903,112.5461197],
+  popup='Mesjid Al Jariyah',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+   folium.Marker(
+  location =[-8.0078443,112.5507437],
+  popup='SMK MUhammadiyah 9 Wagir',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)       
+         
+     folium.Marker(
+  location =[-8.0097417,112.5403735],
+  popup='Warung Kopi Ateng',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)    
+         
+     folium.Marker(
+  location =[-8.0101454,112.538099],
+  popup='Warung Rujak Bu Sapinah',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)    
+      
+    folium.Marker(
+  location =[-8.0091893,112.5226924],
+  popup='Taman Pendidikan Al-Quran',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+   
+    folium.Marker(
+  location =[-8.003071,112.5470853],
+  popup='Toko Hadi Semarindo',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)      
+         
+    folium.Marker(
+  location =[-8.0082246,112.5095868],
+  popup='SDN Precet Sumbersuko',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)      
+         
+     folium.Marker(
+  location =[-8.0143102,112.5017141],
+  popup='ARM Celluler',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)                
 m.save('index.html')
