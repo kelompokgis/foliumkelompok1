@@ -527,4 +527,64 @@ folium.Marker(
   popup='Laras Food',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
+         
+   folium.Marker(
+  location =[-7.976259,112.6267803],
+  popup='Semeru Art Gallery',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+  folium.Marker(
+  location =[-7.977502,112.6277947],
+  popup='Johny Andrean Salon',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+  folium.Marker(
+  location =[-7.977677,112.6299677],
+  popup='Kwartir Cabang Kota Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+   folium.Marker(
+  location =[-7.978171,112.6284387],
+  popup='Maestro',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+  folium.Marker(
+  location =[-7.974957,112.6282727],
+  popup='Western Union',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+   folium.Marker(
+  location =[-7.973995,112.6287987],
+  popup='Avia Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+  folium.Marker(
+  location =[-7.973634,112.6289487],
+  popup='Cahaya Jaya Toko',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+  folium.Marker(
+  location =[-7.973294,112.6282517],
+  popup='Toko Singer',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+  folium.Marker(
+  location =[-7.972991,112.6272377],
+  popup='Hompila Baby Shop',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+  folium.Marker(
+  location =[-7.97221,112.6257677],
+  popup='Golden Pet Shop',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
 m.save('index.html')
