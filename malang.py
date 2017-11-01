@@ -836,15 +836,78 @@ folium.Marker(
 ).add_to(m)
          
      folium.Marker(
-  location =[-7.9880203,112.6122077,
+  location =[-7.9880203,112.6122077],
   popup='Farah Rose Juice',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
    
  folium.Marker(
-  location =[-7.9868143,112.6126097,
+  location =[-7.9868143,112.6126097],
   popup='Warung Bu Sumarni',
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
+ 
+ folium.Marker(
+  location =[-7.9866309,112.6489198],
+  popup='Airport Shuttle',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
   
+   folium.Marker(
+  location =[-7.9862799,112.649137],
+  popup='Kost Detson Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+          folium.Marker(
+  location =[-7.983438,112.646233],
+  popup='Dodikjur',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9744736,112.6393189],
+  popup='Lapangan Rampal',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-7.9793253,112.6413135],
+  popup='Ajenrem',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+        folium.Marker(
+  location =[-.9792238,112.6417077],
+  popup='Warung Kopi Ketan Bubuk',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+        folium.Marker(
+  location =[-7.9829149,112.6380226],
+  popup='Kampung Tridi',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)  
+         
+          folium.Marker(
+  location =[-7.9851695,112.6376459],
+  popup='Tahu Campur Telkom',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+         folium.Marker(
+  location =[-7.9939148,112.6387014],
+  popup='Cabang Bobo Tacon',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+         folium.Marker(
+  location =[-7.9965021,112.6387824],
+  popup='Toko Mbak Yeni',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+         
+         
+         
 m.save('index.html')
