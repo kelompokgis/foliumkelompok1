@@ -907,7 +907,64 @@ folium.Marker(
   icon = folium.Icon (icon='info-sign')
 ).add_to(m) 
          
+     folium.Marker(
+  location =[-7.914901,112.5863783],
+  popup='Sengkaling Water Park',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
          
+     folium.Marker(
+  location =[-7.9153048,112.5866358],
+  popup='Kantor Pos Sengkaling',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)    
          
+    folium.Marker(
+  location =[-7.9152224,112.5862281],
+  popup='Army Facility Komando Distrik Militer 0818',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)      
+         
+     folium.Marker(
+  location =[-7.9147735,112.5856702],
+  popup='Salon Ayu',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)     
+         
+  folium.Marker(
+  location =[-7.9146991,112.5837337],
+  popup='Bakso Unyil',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)       
+         
+    folium.Marker(
+  location =[-7.9141465,112.5832643],
+  popup='Warung Bubur Sari Rasa',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)     
+  
+    folium.Marker(
+  location =[-7.9135886,112.5846295],
+  popup='Warung Sego GOreng',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)     
+         
+   folium.Marker(
+  location =[-7.9145131,112.5834574],
+  popup='SMK Sengkaling',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)      
+         
+     folium.Marker(
+  location =[-7.9157185,112.5807396],
+  popup='Kartika Homestay Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)    
+         
+      folium.Marker(
+  location =[-7.9157896,112.5802071],
+  popup='Fashion Accessories Store',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)     
          
 m.save('index.html')
