@@ -778,5 +778,73 @@ folium.Marker(
   location =[-8.0143102,112.5017141],
   popup='ARM Celluler',
   icon = folium.Icon (icon='info-sign')
-).add_to(m)                
+).add_to(m)  
+   
+ folium.Marker(
+  location =[-7.9819597,112.6242483],
+  popup='Musholla Balai Kambing',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m) 
+         
+  folium.Marker(
+  location =[-7.9843817,112.6237873],
+  popup='Aneka Kimia Toko',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+   folium.Marker(
+  location =[-7.9868357,112.6208793],
+  popup='Bengkel Motor Yamaha',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+   folium.Marker(
+  location =[-7.9868357,112.6208793],
+  popup='Toko 008',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+      folium.Marker(
+  location =[-7.9835987,112.6192893],
+  popup='Pasar Kasih',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+   
+         folium.Marker(
+  location =[-7.9837047,112.617690],
+  popup='Warung Haji Soleh',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+    folium.Marker(
+  location =[-7.9867723,112.6149977],
+  popup='Sukun Raya',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+    folium.Marker(
+  location =[-7.9866023,112.6134257],
+  popup='Warung Bu Sari',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+       
+    folium.Marker(
+  location =[-7.9875793,112.6123797],
+  popup='Cafe Putra',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+     folium.Marker(
+  location =[-7.9880203,112.6122077,
+  popup='Farah Rose Juice',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+   
+ folium.Marker(
+  location =[-7.9868143,112.6126097,
+  popup='Warung Bu Sumarni',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+  
 m.save('index.html')
