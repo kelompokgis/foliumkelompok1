@@ -967,4 +967,66 @@ folium.Marker(
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)     
          
+         folium.Marker(
+  location =[-8.0061244,112.6409953],
+  popup='Sungkono.net',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)   
+         
+         folium.Marker(
+  location =[-8.0075985,112.6412687],
+  popup='BNN Kota Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+          folium.Marker(
+  location =[-8.0106812,112.6407262],
+  popup='UPT Gor Ken Arok',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0121782,112.6351805],
+  popup='Kelurahan Bumiayu',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0156952,112.6337054],
+  popup='Conks Speed',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0216087,112.629853],
+  popup='Sari Kencur',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.021752,112.6300228],
+  popup='UD Anis',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+          folium.Marker(
+  location =[-8.0227895,112.628686],
+  popup='Pasar Tradisional Gadang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0256459,112.6281353],
+  popup='PT Petrokimia Gresik',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0272401,112.6268775],
+  popup='Pasar Mangga Lowok Doro',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         
+         
 m.save('index.html')
