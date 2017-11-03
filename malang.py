@@ -1,8 +1,9 @@
 import folium
 
-m = folium.map(
-  location =[-7.9786395,112.5617421]'
-  zoom_start = 12,
+m = folium.Map(
+    location=[-7.3044144, 112.7412095],
+    zoom_start=12,
+    tiles='Stamen Terrain'
 )
 
 folium.Marker(
@@ -1027,6 +1028,65 @@ folium.Marker(
   icon = folium.Icon (icon='info-sign')
 ).add_to(m)
          
+         folium.Marker(
+  location =[-8.0263991,112.6386254],
+  popup='RSUD Kota Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0261595,112.6411914],
+  popup='Ponpes Darul Ulum Agung',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0249878,112.6349507],
+  popup='Pondok Pesantren Darussalam',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+          folium.Marker(
+  location =[-8.0286494,112.6313559],
+  popup='Keripik Usus Malang Produsen',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+         folium.Marker(
+  location =[-8.0295945,112.629949],
+  popup='Gubuk Blangkon Wolu',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)
+         
+        folium.Marker(
+  location =[-8.0257509,112.6211947],
+  popup='Raja Jagung',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)  
+         
+         folium.Marker(
+  location =[-8.0163652,112.6155268],
+  popup='PDAM Kota Malang',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)  
+         
+        folium.Marker(
+  location =[-8.0052107,112.6182685],
+  popup='Kantor Urusan Agama Sukun',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)    
+         
+         folium.Marker(
+  location =[-8.0033663,112.61787855],
+  popup='Chinesse Food Rejosari',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)    
+         
+         folium.Marker(
+  location =[-8.001403,112.6147854],
+  popup='Lalapan Raja Rasa',
+  icon = folium.Icon (icon='info-sign')
+).add_to(m)    
          
          
 m.save('index.html')
