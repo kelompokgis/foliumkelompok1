@@ -1,10 +1,35 @@
 import folium
 
-m = folium.Map(
-    location=[-7.3044144, 112.7412095],
+def inisiasi(long,lat):
+	m = folium.Map(
+    location=[long,lat],
     zoom_start=12,
-    tiles='Stamen Terrain'
-)
+    tiles='Stamen Terrain')
+	return m
+	
+def hitam(long,lat):
+	c = folium.Map(
+    location=[long,lat],
+    zoom_start=12,
+    tiles='Stamen Toner')	
+	return c
+
+def masukkin(apa,ini):
+	d = folium.Map(
+	location=[apa,ini],
+	zoom_start=12,
+    tiles='Stamen Terrain')	
+	return d
+	
+def simpan(fix,hiks):
+	fix.save(hiks)
+
+d = masukkin(-7.3044144, 112.7412095)
+c = hitam(-7.3044144, 112.7412095)
+m = inisiasi(-7.3044144, 112.7412095)
+tooltip = 'Click me!'
+
+
 
 folium.Marker(
   location =[-7.976854,112.6307393],
@@ -1088,4 +1113,6 @@ folium.Marker(
 ).add_to(m)    
          
          
-m.save('index.html')
+simpan(m,'4.html')
+simpan(c,'5.html')
+simpan(d,'6.html')
