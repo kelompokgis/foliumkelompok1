@@ -31,7 +31,7 @@ tooltip = 'Click me!'
 
 m = folium.Map(
   location=[-7.9804625,112.5729663],
-  zoom_start=10,)
+  zoom_start=12,)
 
 
 folium.Marker(
