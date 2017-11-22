@@ -29,6 +29,9 @@ c = hitam(-7.3044144, 112.7412095)
 m = inisiasi(-7.3044144, 112.7412095)
 tooltip = 'Click me!'
 
+m = folium.Map(
+  location=[-7.9804625,112.5729663],
+  zoom_start=10,)
 
 
 folium.Marker(
